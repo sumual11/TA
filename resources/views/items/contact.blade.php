@@ -1,23 +1,29 @@
-<section class="page-section bg-dark text-white"id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
-          <hr class="my-4">
-          <p class="mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+<section class="page-section-big bg-success text-white" id="contact">
+    <div class="container container-big text-justify">
+        <div class="bottom-wrapper">
+        <footer class="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <aside id="text-7" class="widget widget_text">			
+                  <div class="textwidget"><p><img src="http://islamic-center.or.id/wp-content/uploads/2017/01/logo-jic-pemda-dki-footer.png" alt="" /></p>
+                    <p><b>PUSAT PENGKAJIAN DAN PENGEMBANGAN ISLAM JAKARTA (JAKARTA ISLAMIC CENTRE)</b><br>Jl. Kramat Jaya, Tugu Utara – Koja, Jakarta Utara 14260 – INDONESIA<br>
+                      Telp. 021-4413069, Fax. 021-44835349<br>
+                    </p>
+                  </div>
+                  </aside>
+              </div>
+              <div class="col-md-2"></div>
+              <div class="col-md-4">
+                  <aside id="text-8" class="widget widget_text"><h3 class="widget-title">JADWAL SHOLAT</h3>
+                  <div class="textwidget"><p>
+                      <iframe src="//www.arrahmah.com/jadwal-shalat/?bg=097900" scrolling="no" width="100%" height="200" frameborder="no" framespacing="0"></iframe>
+                  </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </footer>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-          <p>087-886-318-013</p>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-          <p>
-            <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-        </p>
-      </div>
     </div>
-  </div>
 </section>

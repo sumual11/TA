@@ -30,13 +30,11 @@
   <!-- Navigation -->
 @include('items.navigation')
   <!-- Masthead -->
-@include('items.header')
-  <!-- About Section -->
-@include('items.about')
-  <!-- Services Section -->
-@include('items.service')
-  <!-- Portfolio Section -->
-@include('items.portofolio')
+@yield('header')
+
+  <!-- Put content here --> 
+@yield('content')
+
 <!-- Download Section -->
 @include('items.download')
 <!-- Contact Section -->
