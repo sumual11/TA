@@ -8,10 +8,12 @@
 
 @section('content')
   
-    <!-- About Section -->
+  <!-- About Section -->
   @include('items.about')
-    <!-- Services Section -->
+  <!-- Services Section -->
   @include('items.service')
   <!-- Portfolio Section -->
   @include('items.portofolio')
+  <!-- Download Section -->
+  @include('items.download')
 @endsection

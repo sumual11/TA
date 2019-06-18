@@ -36,7 +36,7 @@
 @yield('content')
 
 <!-- Download Section -->
-@include('items.download')
+@yield('download')
 <!-- Contact Section -->
 @include('items.contact')
 

@@ -14,8 +14,13 @@ class CreateModelUsersTable extends Migration
     public function up()
     {
         Schema::create('model_users', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+            $table->increments('id'); //membuat kolom id auto increment
+            $table->string('nama'); //membuat kolom nama
+            $table->string('email'); //membuat kolom email
+            $table->string('password'); //membuat kolom password
+            $table->string('no_telp'); //membuat kolom no telp
+            $table->text('alamat'); //membuat kolom alamat dengan tipe text
+            $table->timestamps(); //membuat kolom created_at dan updated_at sebagai fungsi dasar laravel
         });
     }
 
