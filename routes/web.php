@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('pages/index');
+    return view('frontend/pages/index');
 });
 Route::get('/home', function() {
-    return view('pages/home');
+    return view('frontend/pages/home');
 });
 Route::get('/schedule', function() {
-    return view('pages/schedule');
+    return view('frontend/pages/schedule');
 });

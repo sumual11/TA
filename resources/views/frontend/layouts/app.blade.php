@@ -28,7 +28,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-@include('items.navigation')
+@include('frontend.items.navigation')
   <!-- Masthead -->
 @yield('header')
 
@@ -38,7 +38,7 @@
 <!-- Download Section -->
 @yield('download')
 <!-- Contact Section -->
-@include('items.contact')
+@include('frontend.items.contact')
 
 <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
