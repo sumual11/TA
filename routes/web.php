@@ -17,6 +17,5 @@ Route::get('/', function () {
 Route::get('/home', function() {
     return view('frontend/pages/home');
 });
-Route::get('/schedule', function() {
-    return view('frontend/pages/schedule');
-});
+Route::get('/schedule', 'Kontak@index');
+
