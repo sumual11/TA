@@ -22,7 +22,6 @@
                                 <th>Email</th>
                                 <th>No. Telp</th>
                                 <th>Alamat</th>
-                                <th>Aksi</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -32,7 +31,7 @@
                                     <td>{{ $no++ }}</td>
                                     <td>{{ $datas->nama }}</td>
                                     <td>{{ $datas->email }}</td>
-                                    <td>{{ $datas->nohp }}</td>
+                                    <td>{{ $datas->no_telp }}</td>
                                     <td>{{ $datas->alamat }}</td>
                                     {{-- <td> <form action="{{ route('kontak.destroy', $datas->id) }}" method="post">
                                             {{ csrf_field() }}

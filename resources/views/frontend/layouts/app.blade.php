@@ -27,18 +27,18 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
+<!-- Navigation -->
 @include('frontend.items.navigation')
-  <!-- Masthead -->
+<!-- Masthead -->
 @yield('header')
-
-  <!-- Put content here --> 
+<!-- Put content here --> 
 @yield('content')
-
 <!-- Download Section -->
 @yield('download')
 <!-- Contact Section -->
 @include('frontend.items.contact')
+<!-- Footer -->
+@include('frontend.items.footer')
 
 <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

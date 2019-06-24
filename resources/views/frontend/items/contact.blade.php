@@ -8,7 +8,7 @@
                   <aside id="text-7" class="widget widget_text">			
                   <div class="textwidget"><p><img src="http://islamic-center.or.id/wp-content/uploads/2017/01/logo-jic-pemda-dki-footer.png" alt="" /></p>
                     <p><b>PUSAT PENGKAJIAN DAN PENGEMBANGAN ISLAM JAKARTA (JAKARTA ISLAMIC CENTRE)</b><br>Jl. Kramat Jaya, Tugu Utara – Koja, Jakarta Utara 14260 – INDONESIA<br>
-                      Telp. 021-4413069, Fax. 021-44835349<br>
+                      Telp. 021-4413069, Fax. 021-44835349<br>Email. m.adam91@gmail.com<br>
                     </p>
                   </div>
                   </aside>

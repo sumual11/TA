@@ -15,5 +15,5 @@
   <!-- Portfolio Section -->
   @include('frontend.items.portofolio')
   <!-- Download Section -->
-  @include('frontend.items.download')
+  {{--@include('frontend.items.download')--}}
 @endsection
