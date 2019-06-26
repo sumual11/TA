@@ -7,7 +7,8 @@
             <div class="col-lg-12 mx-auto text-justify">
                     <div class="entry-header">
                     <div class="container">
-                        <h2 class="entry-title" itemprop="headline">Table Kontak</h2>
+                        <h2 class="entry-title" itemprop="headline">Table Schedule</h2>
+                    <div><a href="{{url('/schedule/add')}}" type="button" class="btn btn-success">Tambah Data</a></div>
                         @if (Session::has('alert-success'))
                             <div class="alert alert-success">
                                     <strong>{{ \Illuminate\Support\Facades\Session::get('alert-success') }}</strong>
