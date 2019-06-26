@@ -17,5 +17,10 @@ Route::get('/', function () {
 Route::get('/home', function() {
     return view('frontend/pages/home');
 });
-Route::get('/schedule', 'Kontak@index');
 
+Route::resource('users', 'UserController');
+
+
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
