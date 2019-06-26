@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\ModelUser;
 
-class Kontak extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +13,7 @@ class Kontak extends Controller
      */
     public function index()
     {
-        $data = ModelUser::all();
-        return view('frontend.pages.schedule',['data'=>$data]);
+        //
     }
 
     /**
@@ -25,7 +23,7 @@ class Kontak extends Controller
      */
     public function create()
     {
-        //
+        return view("users.create");
     }
 
     /**
